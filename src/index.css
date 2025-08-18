@@ -7,3 +7,8 @@
     --font-geist: 'Geist', sans-serif;
     --font-inter: 'Inter', sans-serif;
 }
+@layer base {
+  body {
+    @apply font-geist;
+  }
+}
